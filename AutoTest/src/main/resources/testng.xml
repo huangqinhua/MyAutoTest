@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="专家说微信端接口测试套件">
+    <test name = "专家说测试用例">
+        <classes>
+            <class name = "com.huang.cases.TokenTest">
+                <methods>
+                    <include name ="getToken"/>
+                </methods>
+            </class>
+            <class name = "com.huang.cases.TopTest1">
+                <methods>
+                    <include name ="topTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name = "com.huang.config.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>
